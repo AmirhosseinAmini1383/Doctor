@@ -1,0 +1,60 @@
+:root {
+  --purple: #3f3f79;
+  --purpleLight: #8787bf;
+  --green: #7ad03a;
+  --red: #a00;
+  --orange: #ffba00;
+  --blue: #2ea2cc;
+  --wc-secondary: #e9e6ed;
+  --wc-highlight: #b3af54;
+  --white: #ffffff;
+  --subtext: #767676;
+  --dark: #515151;
+  --black: #000000;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("../Font/Vazir-Medium.woff") format("woff");
+}
+.bio {
+  width: 1300px;
+  margin: 0 auto;
+  direction: rtl;
+  font-family: Vazir;
+}
+.bio_doctor {
+  font-size: 40px;
+  color: var(--black);
+}
+.lorem-bio {
+  color: var(--dark);
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.div-notif {
+  width: 100%;
+  background: var(--purple);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 40px;
+}
+.notif {
+  color: var(--wc-secondary);
+  font-size: 20px;
+  padding: 5px 30px;
+}
+.btn-bio {
+  border: none;
+  width: 150px;
+  font-size: 25px;
+  font-family: Vazir;
+  margin: 20px 40px 20px 40px;
+  padding: 10px;
+  border-radius: 40px;
+  background: var(--purpleLight);
+  color: var(--wc-secondary);
+  cursor: pointer;
+}

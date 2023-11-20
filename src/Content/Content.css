@@ -1,0 +1,68 @@
+:root {
+  --purple: #3f3f79;
+  --purpleLight: #8787bf;
+  --green: #7ad03a;
+  --red: #a00;
+  --orange: #ffba00;
+  --blue: #2ea2cc;
+  --wc-secondary: #e9e6ed;
+  --wc-highlight: #b3af54;
+  --white: #ffffff;
+  --subtext: #767676;
+  --dark: #515151;
+  --body: #f7f7f7;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("../Font/Vazir-Medium.woff") format("woff");
+}
+.content {
+  width: 1300px;
+  height: 650px;
+  border-radius: 40px;
+  margin: 0 auto;
+  background: var(--purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Vazir;
+}
+.img-docter {
+  width: 550px;
+  height: 620px;
+  margin-left: 60px;
+}
+.content-about {
+  padding-right: 120px;
+  direction: rtl;
+}
+.docter-p {
+  font-size: 23px;
+  color: var(--white);
+  margin: 0;
+}
+span {
+  color: var(--purpleLight);
+}
+.tag-p {
+  font-size: 40px;
+  margin: 0px;
+  color: var(--white);
+}
+.lorem {
+  color: var(--white);
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.btn {
+  background: var(--purpleLight);
+  padding: 10px 30px;
+  font-family: Vazir;
+  font-size: 20px;
+  color: var(--white);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
