@@ -15,7 +15,7 @@ const Grouping = () => {
         <p className="grouping-p">
           دسته بندی موضوعات <span>عنوان پیشفرض</span>
         </p>
-        <p className="p_">____________</p>
+        <div className="div-hr10"> </div>
       </div>
       <div className="grouping-div">
         <div>

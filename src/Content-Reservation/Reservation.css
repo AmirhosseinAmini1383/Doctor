@@ -12,12 +12,7 @@
   --dark: #515151;
   --body: #f7f7f7;
 }
-@font-face {
-  font-family: Vazir;
-  src: url("../Font/Vazir-Medium.woff") format("woff");
-}
 .reservation {
-  font-family: Vazir;
   width: 1300px;
   margin: 0 auto;
 }
@@ -29,11 +24,13 @@
   color: var(--dark);
   margin-bottom: 0;
 }
-.p_ {
-  text-align: center;
-  font-size: 30px;
-  margin: 0;
-  color: var(--purpleLight);
+.div-hr10 {
+  width: 15%;
+  height: 5px;
+  background: var(--purpleLight);
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .reservation_flex {
   display: flex;
@@ -55,6 +52,5 @@
   height: 40px;
   font-size: 15px;
   color: var(--white);
-  font-family: Vazir;
   background: var(--purpleLight);
 }

@@ -3,7 +3,7 @@ import "../Content-Doc-Notif/DocNotif.css";
 const DocNotif = () => {
   return (
     <div className="bio">
-      <h1 className="bio_doctor">دکتر آرش فدایی</h1>
+      <h1 className="bio_doctor">دکتر کاظم خوانساری</h1>
       <p className="lorem-bio">
         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
         از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و

@@ -16,6 +16,9 @@
   font-family: Vazir;
   src: url("../Font/Vazir-Medium.woff") format("woff");
 }
+* {
+  font-family: Vazir;
+}
 body {
   background: var(--body);
 }

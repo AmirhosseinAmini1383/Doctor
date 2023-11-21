@@ -12,10 +12,7 @@
   --dark: #515151;
   --body: #f7f7f7;
 }
-@font-face {
-  font-family: Vazir;
-  src: url("../Font/Vazir-Medium.woff") format("woff");
-}
+
 .content {
   width: 1300px;
   height: 650px;
@@ -25,7 +22,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Vazir;
 }
 .img-docter {
   width: 550px;
@@ -59,7 +55,6 @@ span {
 .btn {
   background: var(--purpleLight);
   padding: 10px 30px;
-  font-family: Vazir;
   font-size: 20px;
   color: var(--white);
   border: none;

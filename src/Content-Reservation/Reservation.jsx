@@ -9,7 +9,7 @@ const Reservation = () => {
         <p className="reservation-p">
           دریافت نوبت پزشک <span>عنوان پیشفرض</span>
         </p>
-        <p className="p_">____________</p>
+        <div className="div-hr10"> </div>
       </div>
       <div className="reservation_flex">
         <div className="reservation_img">

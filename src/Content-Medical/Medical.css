@@ -1,0 +1,72 @@
+:root {
+  --purple: #3f3f79;
+  --purpleLight: #8787bf;
+  --green: #7ad03a;
+  --red: #a00;
+  --orange: #ffba00;
+  --blue: #2ea2cc;
+  --wc-secondary: #e9e6ed;
+  --wc-highlight: #b3af54;
+  --white: #ffffff;
+  --subtext: #767676;
+  --dark: #515151;
+  --black: #000000;
+}
+.medical {
+  width: 1300px;
+  margin: 0 auto;
+  direction: rtl;
+  background: var(--white);
+  border-radius: 20px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.medical-head {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--black);
+}
+.medical-head h2 {
+  border-right: 5px solid var(--black);
+  padding-right: 20px;
+}
+.medical-head p {
+  cursor: pointer;
+}
+.medical-head div :hover {
+  color: var(--dark);
+}
+.medical-Fdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.medical-img {
+  margin: 20px;
+  border-radius: 15px;
+}
+.medical-h2 {
+  font-size: 19px;
+  color: var(--dark);
+}
+.medical-lorem {
+  font-size: 13px;
+  color: var(--subtext);
+  text-align: justify;
+  padding-left: 20px;
+}
+.medical-Sdiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: var(--dark);
+}
+.medical-Sdiv div {
+  padding: 20px;
+  text-align: center;
+}
+.medical-image {
+  width: 100%;
+  border-radius: 15px;
+}

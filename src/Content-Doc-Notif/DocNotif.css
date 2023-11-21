@@ -12,15 +12,10 @@
   --dark: #515151;
   --black: #000000;
 }
-@font-face {
-  font-family: Vazir;
-  src: url("../Font/Vazir-Medium.woff") format("woff");
-}
 .bio {
   width: 1300px;
   margin: 0 auto;
   direction: rtl;
-  font-family: Vazir;
 }
 .bio_doctor {
   font-size: 40px;
@@ -50,7 +45,6 @@
   border: none;
   width: 150px;
   font-size: 25px;
-  font-family: Vazir;
   margin: 20px 40px 20px 40px;
   padding: 10px;
   border-radius: 40px;

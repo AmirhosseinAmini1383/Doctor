@@ -1,0 +1,73 @@
+:root {
+  --purple: #3f3f79;
+  --purpleLight: #8787bf;
+  --green: #7ad03a;
+  --red: #a00;
+  --orange: #ffba00;
+  --blue: #2ea2cc;
+  --wc-secondary: #e9e6ed;
+  --wc-highlight: #b3af54;
+  --white: #ffffff;
+  --subtext: #767676;
+  --dark: #515151;
+  --black: #000000;
+}
+.footer {
+  width: 1200px;
+  margin: 0 auto;
+  direction: rtl;
+}
+.div-hr {
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: var(--purple);
+}
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: self-start;
+}
+.footerinfo {
+  width: 30%;
+}
+.footerinfo ul {
+  list-style: none;
+  padding-right: 30px;
+  color: var(--purpleLight);
+}
+.footer-li {
+  padding: 5px;
+}
+.footer-info-span {
+  color: var(--dark);
+}
+.footerbio {
+  width: 70%;
+}
+.biography {
+  color: var(--black);
+  font-size: 30px;
+  margin: 20px 30px 0px 30px;
+}
+.bio-lorem {
+  padding: 5px;
+  margin: 16px 30px 0px 30px;
+  text-align: justify;
+  color: var(--dark);
+}
+.div-enamad {
+  direction: ltr;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.enamad {
+  text-align: left;
+  width: 90px;
+  height: 100px;
+}
+.footercopy p {
+  text-align: center;
+  color: var(--subtext);
+}
