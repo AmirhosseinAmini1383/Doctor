@@ -1,3 +1,18 @@
+:root {
+  --purple: #3f3f79;
+  --purpleLight: #8787bf;
+  --green: #7ad03a;
+  --red: #a00;
+  --orange: #ffba00;
+  --blue: #031b4e;
+  --wc-secondary: #e9e6ed;
+  --wc-highlight: #b3af54;
+  --white: #ffffff;
+  --subtext: #767676;
+  --dark: #515151;
+  --body: #f7f7f7;
+  --black: #000000;
+}
 .medical-advice {
   width: 1300px;
   margin: 0 auto;
@@ -11,7 +26,7 @@
   border-radius: 10px;
   background: var(--white);
   margin-left: 15px;
-  width: 900px;
+  width: 90%;
   margin-bottom: 70px;
 }
 .title {
@@ -47,8 +62,59 @@
 .manager-img {
   border-radius: 50%;
 }
+.point-of-view {
+  width: 100%;
+  margin-top: 30px;
+  text-align: right;
+}
+.point-of-view-title {
+  font-size: 20px;
+  margin-top: 20px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--subtext);
+}
+.point-of-view-p {
+  font: 300;
+  color: var(--dark);
+}
+.point-of-view-textarea {
+  border: 1px solid #3f3f7933;
+  box-shadow: var(--purple);
+}
+.point-of-view-label {
+  color: var(--subtext);
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.point-of-view-flex {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.point-of-view-text {
+  margin: 10px;
+}
+.point-of-view-btn {
+  padding: 20px 40px;
+  border: none;
+  background: var(--purple);
+  border-radius: 10px;
+  color: var(--white);
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-right: 400px;
+  cursor: pointer;
+}
+input,
+textarea {
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid #dbe2e8;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #3b4756;
+}
 .side-div {
-  width: 400px;
   height: 100%;
   margin-right: 10px;
 }
