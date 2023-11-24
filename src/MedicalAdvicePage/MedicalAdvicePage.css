@@ -1,0 +1,117 @@
+.medical-advice {
+  width: 1300px;
+  margin: 0 auto;
+  direction: rtl;
+}
+.maindiv {
+  display: flex;
+}
+.title-div {
+  padding: 30px;
+  border-radius: 10px;
+  background: var(--white);
+  margin-left: 15px;
+  width: 900px;
+  margin-bottom: 70px;
+}
+.title {
+  padding-bottom: 30px;
+
+  color: var(--blue);
+  font-size: 25px;
+}
+.title-img {
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+}
+.title-p {
+  color: var(--subtext);
+  text-align: justify;
+  margin-bottom: 60px;
+}
+.manager {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  direction: ltr;
+  padding: 30px;
+  border-radius: 10px;
+  background: var(--body);
+}
+.manager-p {
+  padding-right: 30px;
+  font-size: 20px;
+  color: var(--dark);
+}
+.manager-img {
+  border-radius: 50%;
+}
+.side-div {
+  width: 400px;
+  height: 100%;
+  margin-right: 10px;
+}
+.news-border {
+  color: var(--black);
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  border-right: var(--dark) solid 5px;
+}
+.side-flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.side-news {
+  border-radius: 20px;
+  background: var(--white);
+  padding: 30px 15px 20px 15px;
+  margin-bottom: 30px;
+}
+.side-img {
+  width: 90px;
+  height: 75px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.side-p {
+  color: var(--dark);
+  font-size: 13px;
+  text-align: right;
+  padding-right: 12px;
+}
+.side-social {
+  padding: 15px;
+  background: var(--white);
+  border-radius: 20px;
+}
+.social-div-img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social-border {
+  color: var(--black);
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  border-right: var(--dark) solid 5px;
+}
+.social-img {
+  border-radius: 20px;
+  padding: 20px 30px 20px 30px;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+}
+.instagram {
+  background-image: linear-gradient(to left, #eb6a8d, #e87382);
+}
+.telegram {
+  background-image: linear-gradient(to left, #3574f2, #08b0fd);
+}

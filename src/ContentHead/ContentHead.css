@@ -1,18 +1,3 @@
-:root {
-  --purple: #3f3f79;
-  --purpleLight: #8787bf;
-  --green: #7ad03a;
-  --red: #a00;
-  --orange: #ffba00;
-  --blue: #2ea2cc;
-  --wc-secondary: #e9e6ed;
-  --wc-highlight: #b3af54;
-  --white: #ffffff;
-  --subtext: #767676;
-  --dark: #515151;
-  --body: #f7f7f7;
-}
-
 .content {
   width: 1300px;
   height: 650px;

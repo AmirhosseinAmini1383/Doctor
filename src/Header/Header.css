@@ -4,13 +4,14 @@
   --green: #7ad03a;
   --red: #a00;
   --orange: #ffba00;
-  --blue: #2ea2cc;
+  --blue: #031b4e;
   --wc-secondary: #e9e6ed;
   --wc-highlight: #b3af54;
   --white: #ffffff;
   --subtext: #767676;
   --dark: #515151;
   --body: #f7f7f7;
+  --black: #000000;
 }
 @font-face {
   font-family: Vazir;

@@ -7,7 +7,7 @@ import ictest from "../Images/Image/ic-test.png";
 import medicalteam from "../Images/Image/medical-team.png";
 import hourglass from "../Images/Image/hourglass.png";
 import money from "../Images/Image/money.png";
-import "../Content-Grouping/Grouping.css";
+import "./Grouping.css";
 const Grouping = () => {
   return (
     <div className="grouping">

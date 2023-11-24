@@ -1,5 +1,5 @@
 import React from "react";
-import "../Content-Doc-Notif/DocNotif.css";
+import "./DocNotif.css";
 const DocNotif = () => {
   return (
     <div className="bio">

@@ -1,9 +1,10 @@
 import React from "react";
-import "../Content-Medical/Medical.css";
+import "./Medical.css";
 import ColdExercise from "../Images/Image/cold-and-exercise.png";
 import HealthStats from "../Images/Image/health-stats.png";
 import DoctorTest from "../Images/Image/doctor-test.png";
 import Cold from "../Images/Image/cold.png";
+import { Link } from "react-router-dom";
 const Medical = () => {
   return (
     <div className="medical">
@@ -15,7 +16,13 @@ const Medical = () => {
       </div>
       <div className="medical-Fdiv">
         <div>
-          <img className="medical-img" src={ColdExercise} alt="ColdExercise" />
+          <Link to="/ColdExercise">
+            <img
+              className="medical-img"
+              src={ColdExercise}
+              alt="ColdExercise"
+            />
+          </Link>
         </div>
         <div>
           <h2 className="medical-h2">
@@ -35,15 +42,26 @@ const Medical = () => {
       </div>
       <div className="medical-Sdiv">
         <div>
-          <img className="medical-image" src={HealthStats} alt="HealthStats" />
+          <Link to="/HealthStats">
+            <img
+              className="medical-image"
+              src={HealthStats}
+              alt="HealthStats"
+            />
+          </Link>
           <p>۱۰ شاخص سلامتی که حتما باید...</p>
         </div>
         <div>
-          <img className="medical-image" src={DoctorTest} alt="DoctorTest" />
+          <Link to="/DoctorTest">
+            {" "}
+            <img className="medical-image" src={DoctorTest} alt="DoctorTest" />
+          </Link>
           <p>۱۰ تست غربالگری مهم که برای...</p>
         </div>
         <div>
-          <img className="medical-image" src={Cold} alt="Cold" />
+          <Link to="/Cold">
+            <img className="medical-image" src={Cold} alt="Cold" />
+          </Link>
           <p>چگونه بهترین دارو را برای درمان...</p>
         </div>
       </div>

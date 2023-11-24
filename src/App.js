@@ -1,23 +1,23 @@
-import Comment from "./Content-Comment/Comment";
-import Medical from "./Content-Medical/Medical";
-import DocNotif from "./Content-Doc-Notif/DocNotif";
-import Grouping from "./Content-Grouping/Grouping";
-import Reservation from "./Content-Reservation/Reservation";
+import React from "react";
 import Content from "./Content/Content";
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ColdExercise from "./MedicalAdvicePage/ColdExercise";
+import HealthStats from "./MedicalAdvicePage/HealthStats";
+import DoctorTest from "./MedicalAdvicePage/DoctorTest";
+import Cold from "./MedicalAdvicePage/Cold";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Content />
-      <Reservation />
-      <Grouping />
-      <DocNotif />
-      <Comment />
-      <Medical />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Content />} />
+          <Route path="/HealthStats" element={<HealthStats />} />
+          <Route path="/ColdExercise" element={<ColdExercise />} />
+          <Route path="/DoctorTest" element={<DoctorTest />} />
+          <Route path="/Cold" element={<Cold />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
