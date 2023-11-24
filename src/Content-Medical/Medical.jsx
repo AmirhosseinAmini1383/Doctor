@@ -11,7 +11,9 @@ const Medical = () => {
       <div className="medical-head">
         <h2>مطالب پزشکی</h2>
         <div>
-          <p>نمایش همه</p>
+          <Link to="/medical">
+            <p>نمایش همه</p>
+          </Link>
         </div>
       </div>
       <div className="medical-Fdiv">

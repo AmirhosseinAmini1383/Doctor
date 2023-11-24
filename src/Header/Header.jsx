@@ -1,6 +1,7 @@
 import React from "react";
 import SearchIcon from "../Images/Icon/search.png";
 import "./Header.css";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header">
@@ -27,7 +28,9 @@ const Header = () => {
       </div>
       <div className="header-docname">
         <div>
-          <p>دکتر کاظم خوانساری</p>
+          <Link to="/">
+            <p>دکتر کاظم خوانساری</p>
+          </Link>
         </div>
       </div>
     </div>

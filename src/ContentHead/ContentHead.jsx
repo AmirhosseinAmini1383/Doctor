@@ -12,7 +12,7 @@ const ContentHead = () => {
           نوبت دهی و مشاوره آنلاین با <span>دکتر کاظم خوانساری</span>
         </p>
 
-        <p className="tag-p">______</p>
+        <div className="div-border"></div>
 
         <p className="lorem">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده

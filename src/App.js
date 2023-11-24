@@ -5,6 +5,7 @@ import ColdExercise from "./MedicalAdvicePage/ColdExercise";
 import HealthStats from "./MedicalAdvicePage/HealthStats";
 import DoctorTest from "./MedicalAdvicePage/DoctorTest";
 import Cold from "./MedicalAdvicePage/Cold";
+import MedicalAll from "./MedicalAdvicePage/MedicalAll";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/ColdExercise" element={<ColdExercise />} />
           <Route path="/DoctorTest" element={<DoctorTest />} />
           <Route path="/Cold" element={<Cold />} />
+          <Route path="/medical" element={<MedicalAll />} />
         </Routes>
       </BrowserRouter>
     </div>
