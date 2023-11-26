@@ -103,7 +103,7 @@ const Cold = () => {
                 <textarea
                   className="point-of-view-textarea"
                   rows="10"
-                  cols="120"
+                  cols="100"
                 ></textarea>
               </div>
               <div className="point-of-view-flex">

@@ -26,8 +26,8 @@
   border-radius: 10px;
   background: var(--white);
   margin-left: 15px;
-  width: 90%;
   margin-bottom: 70px;
+  width: 900px;
 }
 .title {
   padding-bottom: 30px;
@@ -117,6 +117,7 @@ textarea {
 .side-div {
   height: 100%;
   margin-right: 10px;
+  width: 400px;
 }
 .news-border {
   color: var(--black);
@@ -176,8 +177,10 @@ textarea {
   margin-bottom: 5px;
 }
 .instagram {
+  margin: 10px;
   background-image: linear-gradient(to left, #eb6a8d, #e87382);
 }
 .telegram {
+  margin: 10px;
   background-image: linear-gradient(to left, #3574f2, #08b0fd);
 }
