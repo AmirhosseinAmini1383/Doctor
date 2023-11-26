@@ -93,6 +93,10 @@
 .point-of-view-text {
   margin: 10px;
 }
+.div-btn {
+  display: flex;
+  justify-content: center;
+}
 .point-of-view-btn {
   padding: 20px 40px;
   border: none;
@@ -100,10 +104,10 @@
   border-radius: 10px;
   color: var(--white);
   font-size: 20px;
-  margin-top: 50px;
-  margin-bottom: 30px;
-  margin-right: 400px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   cursor: pointer;
+  text-align: center;
 }
 input,
 textarea {
@@ -142,8 +146,6 @@ textarea {
   width: 90px;
   height: 75px;
   border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 .side-p {
   color: var(--dark);

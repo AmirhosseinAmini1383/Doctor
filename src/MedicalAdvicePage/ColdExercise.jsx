@@ -112,7 +112,9 @@ const ColdExercise = () => {
                 <input type="text" className="point-of-view-text" />
                 <input type="text" className="point-of-view-text" />
               </div>
-              <button className="point-of-view-btn">فرستادن دیدگاه</button>
+              <div className="div-btn">
+                <button className="point-of-view-btn">فرستادن دیدگاه</button>
+              </div>
             </div>
           </div>
           <div className="side-div">
