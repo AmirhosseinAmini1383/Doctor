@@ -42,7 +42,7 @@ const Grouping = () => {
       <div className="part-div">
         <div className="section-div">
           <img className="group-img" src={medicalteam} alt="medicalteam" />
-          <p> تیم پزشکی مجرب </p>
+          <p className="group-p"> تیم پزشکی مجرب </p>
           <p className="group-lorem">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
             استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
@@ -52,7 +52,7 @@ const Grouping = () => {
         </div>
         <div className="section-div">
           <img className="group-img" src={hourglass} alt="hourglass" />
-          <p> پاسخگویی سریع </p>
+          <p className="group-p"> پاسخگویی سریع </p>
           <p className="group-lorem">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
             استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
@@ -62,7 +62,7 @@ const Grouping = () => {
         </div>
         <div className="section-div">
           <img className="group-img" src={money} alt="money" />
-          <p> کمترین میزان هزینه </p>
+          <p className="group-p"> کمترین میزان هزینه </p>
           <p className="group-lorem">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
             استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در

@@ -18,7 +18,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.reservation_flex {
+.reservation_div {
   display: flex;
   justify-content: space-between;
 }
@@ -38,5 +38,5 @@
   height: 40px;
   font-size: 15px;
   color: var(--white);
-  background: var(--purpleLight);
+  background: var(--purple);
 }

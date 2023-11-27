@@ -21,15 +21,17 @@
   font-family: Vazir;
 }
 body {
+  margin: 0;
+  padding: 0;
   background: var(--body);
 }
 .header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: Vazir;
-  width: 1250px;
+  width: 1300px;
   margin: 0 auto;
+  padding: 20px 20px 30px 20px;
 }
 .tel {
   font-size: 15px;
@@ -51,14 +53,12 @@ body {
   display: flex;
 }
 .input-search {
-  font-family: Vazir;
   direction: rtl;
   flex: 1;
   border: none;
   outline: none;
 }
 .btn-search {
-  font-family: Vazir;
   background: var(--purple);
   padding: 5px 20px;
   border: none;
@@ -81,7 +81,8 @@ a {
 .header-content :hover {
   color: var(--subtext);
 }
-.header-docname p {
+.header-docname a {
+  margin: 0;
   color: var(--dark);
   font-size: 23px;
 }

@@ -10,7 +10,7 @@ import "./MedicalAll.css";
 import { Link } from "react-router-dom";
 const MedicalAll = () => {
   return (
-    <div>
+    <div className="medical-main">
       <Header />
       <div className="title-head">
         <h1>مطالب پزشکی</h1>

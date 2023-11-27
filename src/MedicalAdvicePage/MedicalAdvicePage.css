@@ -1,18 +1,3 @@
-:root {
-  --purple: #3f3f79;
-  --purpleLight: #8787bf;
-  --green: #7ad03a;
-  --red: #a00;
-  --orange: #ffba00;
-  --blue: #031b4e;
-  --wc-secondary: #e9e6ed;
-  --wc-highlight: #b3af54;
-  --white: #ffffff;
-  --subtext: #767676;
-  --dark: #515151;
-  --body: #f7f7f7;
-  --black: #000000;
-}
 .medical-advice {
   width: 1300px;
   margin: 0 auto;
@@ -31,14 +16,13 @@
 }
 .title {
   padding-bottom: 30px;
-
   color: var(--blue);
   font-size: 25px;
 }
 .title-img {
   width: 100%;
   height: 500px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .title-p {
   color: var(--subtext);
@@ -179,10 +163,40 @@ textarea {
   margin-bottom: 5px;
 }
 .instagram {
+  cursor: pointer;
   margin: 10px;
   background-image: linear-gradient(to left, #eb6a8d, #e87382);
 }
 .telegram {
+  cursor: pointer;
   margin: 10px;
   background-image: linear-gradient(to left, #3574f2, #08b0fd);
+}
+@media (max-width: 768px) {
+  body {
+    border: #08b0fd solid 1px;
+  }
+  .medical-advice {
+    width: 700px;
+  }
+  .maindiv {
+    display: grid;
+  }
+  .title-div {
+    padding: 50px;
+    border: 1px solid red;
+    width: 100%;
+  }
+  .title {
+    padding-bottom: 20px;
+  }
+  .title-img {
+    /* width: 800px; */
+    height: 400px;
+  }
+  .side-div {
+    width: 100%;
+    padding: 50px;
+    border: 1px solid red;
+  }
 }

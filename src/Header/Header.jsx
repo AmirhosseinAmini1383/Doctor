@@ -28,9 +28,7 @@ const Header = () => {
       </div>
       <div className="header-docname">
         <div>
-          <Link to="/">
-            <p>دکتر کاظم خوانساری</p>
-          </Link>
+          <Link to="/">دکتر کاظم خوانساری</Link>
         </div>
       </div>
     </div>

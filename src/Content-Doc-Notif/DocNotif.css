@@ -32,8 +32,8 @@
   width: 150px;
   font-size: 25px;
   margin: 20px 40px 20px 40px;
-  padding: 10px;
-  border-radius: 40px;
+  padding: 15px 10px 15px 10px;
+  border-radius: 25px;
   background: var(--purpleLight);
   color: var(--wc-secondary);
   cursor: pointer;

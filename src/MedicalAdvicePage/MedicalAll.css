@@ -1,3 +1,7 @@
+.medical-main {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 .title-head {
   width: 100%;
   text-align: center;
@@ -19,13 +23,16 @@
   background: var(--white);
   padding: 15px;
 }
+.medical-div a {
+  padding: 0;
+}
 .medical-all-img {
   width: 100%;
   border-radius: 10px;
 }
 .medical-all-p {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 50px;
   margin-bottom: 50px;
   font-size: 14px;
   color: var(--dark);
@@ -54,4 +61,24 @@
   color: var(--subtext);
   font-size: 12px;
   margin-right: 10px;
+}
+@media (max-width: 768px) {
+  .title-head {
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+  .title-head h1 {
+    padding: 40px;
+  }
+  .medical-all {
+    width: 700px;
+    display: grid;
+  }
+  .medical-div {
+    margin-bottom: 20px;
+  }
+  .medical-all-lorem {
+    text-align: center;
+    margin: 20px 15px 30px 15px;
+  }
 }

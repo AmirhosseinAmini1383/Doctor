@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  direction: rtl;
 }
 .img-docter {
   width: 550px;
@@ -26,7 +27,7 @@ span {
   color: var(--purpleLight);
 }
 .div-border {
-  width: 15%;
+  width: 20%;
   height: 5px;
   background: var(--white);
   margin-top: 40px;
@@ -43,6 +44,7 @@ span {
   background: var(--purpleLight);
   padding: 10px 30px;
   font-size: 20px;
+  width: 160px;
   color: var(--white);
   border: none;
   border-radius: 40px;
