@@ -93,12 +93,14 @@ const Cold = () => {
               <img className="manager-img" src={User} alt="User" />
             </div>
             <div className="point-of-view">
-              <p className="point-of-view-title">دیدگاهتان را بنویسید</p>
-              <p className="point-of-view-p">
-                نشانی ایمیل شما منتشر نخواهد شد. بخش‌های موردنیاز علامت‌گذاری
-                شده‌اند *
-              </p>
-              <p className="point-of-view-p">دیدگاه *</p>
+              <div>
+                <p className="point-of-view-title">دیدگاهتان را بنویسید</p>
+                <p className="point-of-view-p">
+                  نشانی ایمیل شما منتشر نخواهد شد. بخش‌های موردنیاز علامت‌گذاری
+                  شده‌اند *
+                </p>
+                <p className="point-of-view-p">دیدگاه *</p>
+              </div>
               <div>
                 <textarea
                   className="point-of-view-textarea"
@@ -108,10 +110,10 @@ const Cold = () => {
               </div>
               <div className="point-of-view-flex">
                 <label className="point-of-view-label">نام (الزامی)</label>
+                <input type="text" className="point-of-view-text" />
                 <label className="point-of-view-label">ایمیل (الزامی)</label>
+                <input type="text" className="point-of-view-text" />
                 <label className="point-of-view-label">وبسایت</label>
-                <input type="text" className="point-of-view-text" />
-                <input type="text" className="point-of-view-text" />
                 <input type="text" className="point-of-view-text" />
               </div>
               <div className="div-btn">

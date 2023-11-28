@@ -58,21 +58,25 @@
   border-bottom: 1px solid var(--subtext);
 }
 .point-of-view-p {
-  font: 300;
+  font-size: 15px;
   color: var(--dark);
 }
 .point-of-view-textarea {
   border: 1px solid #3f3f7933;
   box-shadow: var(--purple);
+  width: 100%;
 }
 .point-of-view-label {
   color: var(--subtext);
-  margin-top: 30px;
   margin-right: 10px;
+  margin-left: 10px;
+  font-size: 15px;
 }
 .point-of-view-flex {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .point-of-view-text {
   margin: 10px;
@@ -173,30 +177,74 @@ textarea {
   background-image: linear-gradient(to left, #3574f2, #08b0fd);
 }
 @media (max-width: 768px) {
-  body {
-    border: #08b0fd solid 1px;
-  }
   .medical-advice {
     width: 700px;
   }
   .maindiv {
     display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
   .title-div {
-    padding: 50px;
-    border: 1px solid red;
+    padding: 0px;
     width: 100%;
   }
   .title {
-    padding-bottom: 20px;
+    padding: 20px;
   }
   .title-img {
-    /* width: 800px; */
+    margin-right: 20px;
+    width: 660px;
     height: 400px;
+  }
+  .title-p {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .manager {
+    margin: 20px;
+  }
+  .point-of-view-title {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .point-of-view-p {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .point-of-view-label {
+    font-size: 20px;
+  }
+  .point-of-view div {
+    margin: 20px;
+  }
+  .point-of-view-textarea {
+    width: 98%;
+  }
+  .point-of-view-flex {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
   .side-div {
     width: 100%;
-    padding: 50px;
-    border: 1px solid red;
+    padding: 0px;
+    margin: 0px;
+  }
+  .news-border {
+    margin-right: 10px;
+  }
+  .side-social {
+    margin-bottom: 30px;
+  }
+  .side-img {
+    width: 115px;
+    height: 90px;
+    border-radius: 10px;
+  }
+  .side-p {
+    font-size: 17px;
+    padding-right: 25px;
+  }
+  .social-img {
+    padding: 20px 120px 20px 120px;
   }
 }

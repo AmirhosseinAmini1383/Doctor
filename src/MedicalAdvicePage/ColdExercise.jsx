@@ -106,10 +106,10 @@ const ColdExercise = () => {
               </div>
               <div className="point-of-view-flex">
                 <label className="point-of-view-label">نام (الزامی)</label>
+                <input type="text" className="point-of-view-text" />
                 <label className="point-of-view-label">ایمیل (الزامی)</label>
+                <input type="text" className="point-of-view-text" />
                 <label className="point-of-view-label">وبسایت</label>
-                <input type="text" className="point-of-view-text" />
-                <input type="text" className="point-of-view-text" />
                 <input type="text" className="point-of-view-text" />
               </div>
               <div className="div-btn">
