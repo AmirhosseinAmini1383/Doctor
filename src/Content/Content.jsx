@@ -7,7 +7,9 @@ import Reservation from "../Content-Reservation/Reservation";
 import ContentHead from "../ContentHead/ContentHead";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import "../ResponsiveContent/MainResponsive.css";
 import "../ResponsiveContent/Tablet.css";
+import "../ResponsiveContent/Mobile.css";
 const Content = () => {
   return (
     <>

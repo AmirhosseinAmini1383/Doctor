@@ -15,11 +15,10 @@
   margin-bottom: 50px;
 }
 .div-notif {
-  width: 100%;
   background: var(--purple);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   border-radius: 40px;
 }
 .notif {

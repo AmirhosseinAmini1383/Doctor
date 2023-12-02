@@ -1,27 +1,14 @@
-:root {
-  --purple: #3f3f79;
-  --purpleLight: #8787bf;
-  --green: #7ad03a;
-  --red: #a00;
-  --orange: #ffba00;
-  --blue: #031b4e;
-  --wc-secondary: #e9e6ed;
-  --wc-highlight: #b3af54;
-  --white: #ffffff;
-  --subtext: #767676;
-  --dark: #515151;
-  --body: #f7f7f7;
-  --black: #000000;
-}
 @media (max-width: 768px) {
-  /* Header */
-  .header {
-    width: 700px;
+  ::-webkit-scrollbar {
+    width: 10px;
   }
+  /* Header */
   .search {
     display: none;
   }
   .tel {
+    display: grid;
+    text-align: right;
     font-size: 12px;
     border-radius: 15px;
   }
@@ -33,7 +20,6 @@
   }
   /* HeaderContent */
   .content {
-    width: 700px;
     display: grid;
     height: 100%;
     text-align: center;
@@ -51,20 +37,18 @@
     text-align: right;
   }
   /* Reservation */
-  .reservation {
-    width: 700px;
-  }
   .reservation_div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .online {
-    margin-bottom: 40px;
+  .reservation_div div {
+    margin-bottom: 30px;
+  }
+  .img {
+    width: 100%;
+    height: 600px;
   }
   /* Grouping */
-  .grouping {
-    width: 700px;
-  }
   .grouping-div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -88,9 +72,6 @@
     font-size: 18px;
   }
   /* DocNotif */
-  .bio {
-    width: 700px;
-  }
   .div-notif {
     border-radius: 20px;
   }
@@ -98,17 +79,12 @@
     border-radius: 15px;
   }
   /* Comment */
-  .comment-body {
-    width: 700px;
-  }
   .comments {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
   /* Medical */
-  .medical {
-    width: 700px;
-  }
+
   .medical-head {
     padding: 10px 20px 10px 20px;
   }
@@ -123,9 +99,6 @@
     font-size: 20px;
   }
   /* Footer */
-  .footer {
-    width: 700px;
-  }
   .footer-div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

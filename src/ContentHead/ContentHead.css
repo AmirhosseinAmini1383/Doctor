@@ -1,6 +1,6 @@
 .content {
   width: 1300px;
-  height: 650px;
+  height: 600px;
   border-radius: 40px;
   margin: 0 auto;
   background: var(--purple);
@@ -10,8 +10,8 @@
   direction: rtl;
 }
 .img-docter {
-  width: 550px;
-  height: 620px;
+  width: 500px;
+  height: 570px;
   margin-left: 60px;
 }
 .content-about {
@@ -27,7 +27,7 @@ span {
   color: var(--purpleLight);
 }
 .div-border {
-  width: 20%;
+  width: 30%;
   height: 5px;
   background: var(--white);
   margin-top: 40px;

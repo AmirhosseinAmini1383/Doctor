@@ -176,6 +176,7 @@ textarea {
   margin: 10px;
   background-image: linear-gradient(to left, #3574f2, #08b0fd);
 }
+
 @media (max-width: 768px) {
   .medical-advice {
     width: 700px;

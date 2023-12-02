@@ -17,6 +17,16 @@
   font-family: Vazir;
   src: url("../Font/Vazir-Medium.woff") format("woff");
 }
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background: #3f3f79;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #8787bf;
+}
 * {
   font-family: Vazir;
 }
@@ -25,6 +35,7 @@ body {
   padding: 0;
   background: var(--body);
 }
+
 .header {
   display: flex;
   justify-content: space-around;
