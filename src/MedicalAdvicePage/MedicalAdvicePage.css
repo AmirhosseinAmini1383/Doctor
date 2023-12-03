@@ -78,6 +78,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.point-of-view-flex ::placeholder {
+  opacity: 0.6;
+}
 .point-of-view-text {
   margin: 10px;
 }
@@ -145,6 +148,7 @@ textarea {
   padding: 15px;
   background: var(--white);
   border-radius: 20px;
+  margin-bottom: 80px;
 }
 .social-div-img {
   display: flex;
@@ -176,76 +180,89 @@ textarea {
   margin: 10px;
   background-image: linear-gradient(to left, #3574f2, #08b0fd);
 }
-
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
   .medical-advice {
-    width: 700px;
+    width: calc(100% - 50px);
   }
   .maindiv {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .title-div {
-    padding: 0px;
-    width: 100%;
-  }
-  .title {
-    padding: 20px;
+    justify-content: space-between;
   }
   .title-img {
-    margin-right: 20px;
-    width: 660px;
     height: 400px;
   }
-  .title-p {
-    padding: 20px;
-    margin-bottom: 40px;
+  .title-div {
+    margin: 0px;
+    width: 60%;
   }
-  .manager {
-    margin: 20px;
+  .side-div {
+    width: 30%;
+    margin: 0px;
   }
-  .point-of-view-title {
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-  .point-of-view-p {
-    margin-right: 20px;
-    margin-left: 20px;
+  .point-of-view-flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .point-of-view-label {
     font-size: 20px;
   }
-  .point-of-view div {
-    margin: 20px;
-  }
-  .point-of-view-textarea {
-    width: 98%;
-  }
-  .point-of-view-flex {
+}
+@media (max-width: 1000px) {
+  .maindiv {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+  }
+  .title-div {
+    margin-left: 0px;
+    margin-bottom: 70px;
+    width: calc(100% - 60px);
   }
   .side-div {
+    margin-right: 0px;
     width: 100%;
-    padding: 0px;
-    margin: 0px;
-  }
-  .news-border {
-    margin-right: 10px;
-  }
-  .side-social {
-    margin-bottom: 30px;
   }
   .side-img {
-    width: 115px;
-    height: 90px;
+    width: 170px;
+    height: 120px;
     border-radius: 10px;
   }
+  .social-img {
+    padding: 25px 120px;
+  }
   .side-p {
-    font-size: 17px;
-    padding-right: 25px;
+    font-size: 18px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .title-img {
+    height: 300px;
+  }
+  .maindiv {
+    display: block;
+  }
+  .side-img {
+    width: 150px;
+    height: 100px;
   }
   .social-img {
-    padding: 20px 120px 20px 120px;
+    padding: 20px 80px;
+  }
+}
+@media (max-width: 500px) {
+  .title-img {
+    height: 200px;
+  }
+  .social-img {
+    padding: 20px 60px;
+  }
+  .social-img {
+    padding: 25px 30px;
+  }
+  .side-p {
+    font-size: 13px;
+    padding-right: 15px;
+  }
+  .side-img {
+    width: 120px;
+    height: 90px;
   }
 }

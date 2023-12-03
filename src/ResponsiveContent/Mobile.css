@@ -17,9 +17,6 @@
   ::-webkit-scrollbar {
     width: 5px;
   }
-  body {
-    border: 1px solid red;
-  }
   /* Header */
   .tel {
     display: grid;
@@ -94,16 +91,12 @@
     margin-right: 10px;
   }
   .comment-lorem p {
-    border: 1px solid red;
     font-size: 12px;
     margin: 0px;
     padding: 0px;
     direction: rtl;
   }
   /* Medical */
-  .medical {
-    margin: 50px 20px;
-  }
   .medical-head h2 {
     padding-right: 10px;
   }

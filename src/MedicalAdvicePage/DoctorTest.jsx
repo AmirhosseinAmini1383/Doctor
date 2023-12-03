@@ -109,11 +109,23 @@ const DoctorTest = () => {
               </div>
               <div className="point-of-view-flex">
                 <label className="point-of-view-label">نام (الزامی)</label>
-                <input type="text" className="point-of-view-text" />
+                <input
+                  type="text"
+                  className="point-of-view-text"
+                  placeholder="نام خود را وارد کنید"
+                />
                 <label className="point-of-view-label">ایمیل (الزامی)</label>
-                <input type="text" className="point-of-view-text" />
+                <input
+                  type="text"
+                  className="point-of-view-text"
+                  placeholder="ایمیل خود را وارد کنید"
+                />
                 <label className="point-of-view-label">وبسایت</label>
-                <input type="text" className="point-of-view-text" />
+                <input
+                  type="text"
+                  className="point-of-view-text"
+                  placeholder="آدرس وبسایت خود را وارد کنید"
+                />
               </div>
               <div className="div-btn">
                 <button className="point-of-view-btn">فرستادن دیدگاه</button>
