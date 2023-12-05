@@ -62,9 +62,6 @@
   margin-right: 10px;
 }
 @media (max-width: 1300px) {
-  body {
-    border: 1px solid red;
-  }
   .title-head {
     width: calc(100% - 50px);
   }
