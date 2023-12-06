@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-tel">
-        <p className="tel">تلفن : 02160618500</p>
+        <p className="tel">تلفن : 021556585</p>
       </div>
       <div>
         <form class="search">
