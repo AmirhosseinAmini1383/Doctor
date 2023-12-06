@@ -40,8 +40,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1300px;
-  margin: 0 auto;
+
   padding: 20px 20px 30px 20px;
 }
 .tel {

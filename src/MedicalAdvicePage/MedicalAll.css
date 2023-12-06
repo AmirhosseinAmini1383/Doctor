@@ -11,9 +11,7 @@
   font-size: 13px;
 }
 .medical-all {
-  width: 1300px;
   height: 100%;
-  margin: 0 auto;
   direction: rtl;
   display: flex;
   /* justify-content: space-evenly;

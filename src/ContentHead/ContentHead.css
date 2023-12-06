@@ -1,8 +1,6 @@
 .content {
-  width: 1300px;
   height: 600px;
   border-radius: 40px;
-  margin: 0 auto;
   background: var(--purple);
   display: flex;
   justify-content: center;

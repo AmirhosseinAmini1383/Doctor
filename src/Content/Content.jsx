@@ -10,9 +10,11 @@ import Footer from "../Footer/Footer";
 import "../ResponsiveContent/MainResponsive.css";
 import "../ResponsiveContent/Tablet.css";
 import "../ResponsiveContent/Mobile.css";
+import "./Content.css";
+
 const Content = () => {
   return (
-    <>
+    <div className="container">
       <Header />
       <ContentHead />
       <Reservation />
@@ -21,7 +23,7 @@ const Content = () => {
       <Comment />
       <Medical />
       <Footer />
-    </>
+    </div>
   );
 };
 export default Content;
