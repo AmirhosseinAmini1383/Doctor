@@ -1,24 +1,27 @@
 import React from "react";
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
-import Coldexercise from "../Images/Image/cold-and-exercise.png";
-import HealthStats from "../Images/Image/health-stats.png";
-import DoctorTest from "../Images/Image/doctor-test.png";
-import User from "../Images/Image/User.png";
-import Cold from "../Images/Image/cold.png";
-import Instagram from "../Images/Icon/instagram.png";
-import Telegram from "../Images/Icon/telegram.png";
-import "../MedicalAdvicePage/MedicalAdvicePage.css";
+import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
+import Coldexercise from "../../Images/Image/cold-and-exercise.png";
+import Healthstats from "../../Images/Image/health-stats.png";
+import Doctortest from "../../Images/Image/doctor-test.png";
+import User from "../../Images/Image/User.png";
+import Cold from "../../Images/Image/cold.png";
+import Instagram from "../../Images/Icon/instagram.png";
+import Telegram from "../../Images/Icon/telegram.png";
+import "./MedicalAdvicePage.css";
+
 import { Link } from "react-router-dom";
-const ColdExercise = () => {
+const DoctorTest = () => {
   return (
     <div className="container">
       <Header />
       <div className="medical-advice">
         <div className="maindiv">
           <div className="title-div">
-            <h1 className="title">آیا در زمان سرماخوردگی می‌توانم ورزش کنم؟</h1>
-            <img className="title-img" src={Coldexercise} alt="Coldexercise" />
+            <h1 className="title">
+              ۱۰ تست غربالگری مهم که برای تمام مردان ضروری‌اند
+            </h1>
+            <img className="title-img" src={Doctortest} alt="Doctortest" />
             <p className="title-p">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
               استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
@@ -148,7 +151,7 @@ const ColdExercise = () => {
                 <Link to="/HealthStats">
                   <img
                     className="side-img"
-                    src={HealthStats}
+                    src={Healthstats}
                     alt="HealthStats"
                   />
                 </Link>
@@ -158,7 +161,7 @@ const ColdExercise = () => {
               </div>
               <div className="side-flex">
                 <Link to="/DoctorTest">
-                  <img className="side-img" src={DoctorTest} alt="DoctorTest" />
+                  <img className="side-img" src={Doctortest} alt="DoctorTest" />
                 </Link>
                 <p className="side-p">
                   ۱۰ تست غربالگری مهم که برای تمام مردان ضروری‌اند
@@ -191,9 +194,8 @@ const ColdExercise = () => {
           </div>
         </div>
       </div>
-
       <Footer />
     </div>
   );
 };
-export default ColdExercise;
+export default DoctorTest;

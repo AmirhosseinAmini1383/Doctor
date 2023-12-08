@@ -1,6 +1,6 @@
 import React from "react";
-import imgDocter from "../Images/Image/doctor.png";
-import "../ContentHead/ContentHead.css";
+import imgDocter from "../../../Images/Image/doctor.png";
+import "./ContentHead.css";
 const ContentHead = () => {
   return (
     <div className="content">

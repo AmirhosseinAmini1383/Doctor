@@ -1,12 +1,12 @@
 import React from "react";
-import center from "../Images/Image/center.png";
-import drug from "../Images/Image/drug.png";
-import icmezaj from "../Images/Image/ic-mezaj.png";
-import blog from "../Images/Image/blog.png";
-import ictest from "../Images/Image/ic-test.png";
-import medicalteam from "../Images/Image/medical-team.png";
-import hourglass from "../Images/Image/hourglass.png";
-import money from "../Images/Image/money.png";
+import center from "../../../Images/Image/center.png";
+import drug from "../../../Images/Image/drug.png";
+import icmezaj from "../../../Images/Image/ic-mezaj.png";
+import blog from "../../../Images/Image/blog.png";
+import ictest from "../../../Images/Image/ic-test.png";
+import medicalteam from "../../../Images/Image/medical-team.png";
+import hourglass from "../../../Images/Image/hourglass.png";
+import money from "../../../Images/Image/money.png";
 import "./Grouping.css";
 const Grouping = () => {
   return (

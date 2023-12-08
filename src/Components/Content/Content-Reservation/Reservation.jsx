@@ -1,7 +1,7 @@
 import React from "react";
 import "./Reservation.css";
-import online from "../Images/Image/online-doctor.png";
-import medicalprescription from "../Images/Image/medical-prescription.png";
+import online from "../../../Images/Image/online-doctor.png";
+import medicalprescription from "../../../Images/Image/medical-prescription.png";
 const Reservation = () => {
   return (
     <div className="reservation">

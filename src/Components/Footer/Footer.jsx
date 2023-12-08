@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import Enamad from "../Images/Image/enamad.png";
-import Samandehi from "../Images/Image/samandehi.png";
+import Enamad from "../../Images/Image/enamad.png";
+import Samandehi from "../../Images/Image/samandehi.png";
 const Footer = () => {
   return (
     <div className="footer">

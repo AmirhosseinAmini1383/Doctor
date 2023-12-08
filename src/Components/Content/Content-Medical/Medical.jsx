@@ -1,9 +1,9 @@
 import React from "react";
 import "./Medical.css";
-import ColdExercise from "../Images/Image/cold-and-exercise.png";
-import HealthStats from "../Images/Image/health-stats.png";
-import DoctorTest from "../Images/Image/doctor-test.png";
-import Cold from "../Images/Image/cold.png";
+import ColdExercise from "../../../Images/Image/cold-and-exercise.png";
+import HealthStats from "../../../Images/Image//health-stats.png";
+import DoctorTest from "../../../Images/Image/doctor-test.png";
+import Cold from "../../../Images/Image/cold.png";
 import { Link } from "react-router-dom";
 const Medical = () => {
   return (

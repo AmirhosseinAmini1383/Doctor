@@ -1,17 +1,16 @@
 import React from "react";
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
-import Coldexercise from "../Images/Image/cold-and-exercise.png";
-import Healthstats from "../Images/Image/health-stats.png";
-import DoctorTest from "../Images/Image/doctor-test.png";
-import User from "../Images/Image/User.png";
-import Cold from "../Images/Image/cold.png";
-import Instagram from "../Images/Icon/instagram.png";
-import Telegram from "../Images/Icon/telegram.png";
-import "../MedicalAdvicePage/MedicalAdvicePage.css";
-
+import Coldexercise from "../../Images/Image/cold-and-exercise.png";
+import HealthStats from "../../Images/Image/health-stats.png";
+import DoctorTest from "../../Images/Image/doctor-test.png";
+import User from "../../Images/Image/User.png";
+import ColD from "../../Images/Image/cold.png";
+import Instagram from "../../Images/Icon/instagram.png";
+import Telegram from "../../Images/Icon/telegram.png";
+import "./MedicalAdvicePage.css";
 import { Link } from "react-router-dom";
-const HealthStats = () => {
+import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
+const Cold = () => {
   return (
     <div className="container">
       <Header />
@@ -19,9 +18,9 @@ const HealthStats = () => {
         <div className="maindiv">
           <div className="title-div">
             <h1 className="title">
-              ۱۰ شاخص سلامتی که حتما باید درباره‌ی خودتان بدانید
+              چگونه بهترین دارو را برای درمان سرماخوردگی انتخاب کنیم؟
             </h1>
-            <img className="title-img" src={Healthstats} alt="Coldexercise" />
+            <img className="title-img" src={ColD} alt="Cold" />
             <p className="title-p">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
               استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
@@ -94,12 +93,14 @@ const HealthStats = () => {
               <img className="manager-img" src={User} alt="User" />
             </div>
             <div className="point-of-view">
-              <p className="point-of-view-title">دیدگاهتان را بنویسید</p>
-              <p className="point-of-view-p">
-                نشانی ایمیل شما منتشر نخواهد شد. بخش‌های موردنیاز علامت‌گذاری
-                شده‌اند *
-              </p>
-              <p className="point-of-view-p">دیدگاه *</p>
+              <div>
+                <p className="point-of-view-title">دیدگاهتان را بنویسید</p>
+                <p className="point-of-view-p">
+                  نشانی ایمیل شما منتشر نخواهد شد. بخش‌های موردنیاز علامت‌گذاری
+                  شده‌اند *
+                </p>
+                <p className="point-of-view-p">دیدگاه *</p>
+              </div>
               <div>
                 <textarea
                   className="point-of-view-textarea"
@@ -151,7 +152,7 @@ const HealthStats = () => {
                 <Link to="/HealthStats">
                   <img
                     className="side-img"
-                    src={Healthstats}
+                    src={HealthStats}
                     alt="HealthStats"
                   />
                 </Link>
@@ -169,7 +170,7 @@ const HealthStats = () => {
               </div>
               <div className="side-flex">
                 <Link to="/Cold">
-                  <img className="side-img" src={Cold} alt="Cold" />
+                  <img className="side-img" src={ColD} alt="Cold" />
                 </Link>
                 <p className="side-p">
                   چگونه بهترین دارو را برای درمان سرماخوردگی انتخاب کنیم؟
@@ -198,4 +199,4 @@ const HealthStats = () => {
     </div>
   );
 };
-export default HealthStats;
+export default Cold;

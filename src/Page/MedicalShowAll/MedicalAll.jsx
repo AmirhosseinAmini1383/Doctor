@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
-import ColdExercise from "../Images/Image/cold-and-exercise.png";
-import HealthStats from "../Images/Image/health-stats.png";
-import DoctorTest from "../Images/Image/doctor-test.png";
-import Cold from "../Images/Image/cold.png";
-import User from "../Images/Image/User.png";
+import ColdExercise from "../../Images/Image/cold-and-exercise.png";
+import HealthStats from "../../Images/Image/health-stats.png";
+import DoctorTest from "../../Images/Image/doctor-test.png";
+import Cold from "../../Images/Image/cold.png";
+import User from "../../Images/Image/User.png";
 import "./MedicalAll.css";
 import { Link } from "react-router-dom";
+import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
 const MedicalAll = () => {
   return (
     <div className="container">

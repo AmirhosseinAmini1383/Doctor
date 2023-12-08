@@ -1,18 +1,18 @@
 import React from "react";
-import Content from "./Content/Content";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import ColdExercise from "./MedicalAdvicePage/ColdExercise";
-import HealthStats from "./MedicalAdvicePage/HealthStats";
-import DoctorTest from "./MedicalAdvicePage/DoctorTest";
-import Cold from "./MedicalAdvicePage/Cold";
-import MedicalAll from "./MedicalAdvicePage/MedicalAll";
+import Home from "./Page/Home/Home";
+import HealthStats from "./Page/MedicalPage/HealthStats";
+import ColdExercise from "./Page/MedicalPage/ColdExercise";
+import DoctorTest from "./Page/MedicalPage/DoctorTest";
+import Cold from "./Page/MedicalPage/Cold";
+import MedicalAll from "./Page/MedicalShowAll/MedicalAll";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Content />} />
+          <Route path="/" element={<Home />} />
           <Route path="/HealthStats" element={<HealthStats />} />
           <Route path="/ColdExercise" element={<ColdExercise />} />
           <Route path="/DoctorTest" element={<DoctorTest />} />

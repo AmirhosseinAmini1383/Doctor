@@ -1,5 +1,5 @@
 import React from "react";
-import SearchIcon from "../Images/Icon/search.png";
+import SearchIcon from "../../Images/Icon/search.png";
 import "./Header.css";
 import { Link } from "react-router-dom";
 const Header = () => {

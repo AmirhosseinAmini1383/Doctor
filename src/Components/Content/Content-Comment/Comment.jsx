@@ -1,7 +1,7 @@
 import React from "react";
 import "./Comment.css";
-import man from "../Images/Image/mancomment.png";
-import woman from "../Images/Image/womancomment.png";
+import man from "../../../Images/Image/mancomment.png";
+import woman from "../../../Images/Image/womancomment.png";
 
 const Comment = () => {
   return (

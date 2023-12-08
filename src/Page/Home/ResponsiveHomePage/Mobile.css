@@ -1,18 +1,3 @@
-:root {
-  --purple: #3f3f79;
-  --purpleLight: #8787bf;
-  --green: #7ad03a;
-  --red: #a00;
-  --orange: #ffba00;
-  --blue: #031b4e;
-  --wc-secondary: #e9e6ed;
-  --wc-highlight: #b3af54;
-  --white: #ffffff;
-  --subtext: #767676;
-  --dark: #515151;
-  --body: #f7f7f7;
-  --black: #000000;
-}
 @media (max-width: 500px) {
   ::-webkit-scrollbar {
     width: 5px;
