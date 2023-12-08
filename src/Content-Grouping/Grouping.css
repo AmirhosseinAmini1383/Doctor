@@ -13,7 +13,7 @@
   background: var(--white);
   border-radius: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   direction: rtl;
@@ -22,7 +22,7 @@
 .group-img {
   width: 100px;
   height: 100px;
-  padding: 20px 30px 0px 30px;
+  padding: 20px 0px;
 }
 .group-p {
   font-size: 18px;

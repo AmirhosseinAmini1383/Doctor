@@ -16,16 +16,18 @@
   }
   /* HeaderContent */
   .content {
-    width: calc(100% - 50px);
+    width: calc(100% - 40px);
+    margin: 0 auto;
   }
   .img-docter {
-    width: 450px;
-    height: 550px;
+    width: 530px;
+    height: 600px;
     margin-left: 6px;
   }
   /* Reservation */
   .reservation {
-    width: calc(100% - 10px);
+    width: calc(100% - 20px);
+    margin: 0 auto;
   }
   .reservation_div div {
     margin: 0px 20px;
@@ -36,15 +38,18 @@
   /* Grouping */
   .grouping {
     width: calc(100% - 50px);
+    margin: 0 auto;
   }
   /* DocNotif */
   .bio {
     width: calc(100% - 50px);
+    margin: 0 auto;
   }
 
   /* Comment */
   .comment-body {
     width: calc(100% - 50px);
+    margin: 0 auto;
   }
   .comment-div {
     margin: 10px;
@@ -52,11 +57,14 @@
   /* Medical */
   .medical {
     width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 50px;
   }
 
   /* Footer */
   .footer {
     width: calc(100% - 50px);
+    margin: 0 auto;
   }
 }
 @media (max-width: 1000px) {
@@ -67,14 +75,11 @@
   /* HeaderContent */
   .img-docter {
     width: 450px;
-    height: 550px;
+    height: 500px;
     margin-left: 6px;
   }
   .content-about {
     padding-right: 50px;
-  }
-  .docter-p {
-    font-size: 20px;
   }
   .lorem {
     margin-top: 20px;
@@ -89,6 +94,11 @@
     border: none;
     border-radius: 40px;
     cursor: pointer;
+  }
+  /* Reservation */
+  .img {
+    width: 100%;
+    height: auto;
   }
   /* Medical */
   .medical-img {

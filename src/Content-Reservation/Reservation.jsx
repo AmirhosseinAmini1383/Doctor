@@ -12,11 +12,11 @@ const Reservation = () => {
         <div className="div-hr10"> </div>
       </div>
       <div className="reservation_div">
-        <div className="reservation_img">
+        <div className="reservation_img online">
           <img className="img" src={online} alt="online" />
           <button className="reservation_btn">مشاوره آنلاین</button>
         </div>
-        <div className="reservation_img online">
+        <div className="reservation_img offline">
           <img
             className="img"
             src={medicalprescription}

@@ -13,7 +13,7 @@ import "../MedicalAdvicePage/MedicalAdvicePage.css";
 import { Link } from "react-router-dom";
 const DoctorTest = () => {
   return (
-    <div>
+    <div className="container">
       <Header />
       <div className="medical-advice">
         <div className="maindiv">

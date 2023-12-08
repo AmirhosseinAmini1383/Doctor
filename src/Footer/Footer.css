@@ -2,6 +2,7 @@
   direction: rtl;
 }
 .div-hr {
+  margin-top: 50px;
   width: 100%;
   height: 8px;
   border-radius: 5px;
