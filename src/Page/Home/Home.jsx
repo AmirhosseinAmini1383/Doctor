@@ -3,6 +3,7 @@ import Header from "../../Components/Header/Header";
 import ContentHead from "../../Components/Content/ContentHead/ContentHead";
 import Reservation from "../../Components/Content/Content-Reservation/Reservation";
 import Grouping from "../../Components/Content/Content-Grouping/Grouping";
+import Data from "../../Components/Content/Content-AxiosApi/Data";
 import DocNotif from "../../Components/Content/Content-Doc-Notif/DocNotif";
 import Comment from "../../Components/Content/Content-Comment/Comment";
 import Medical from "../../Components/Content/Content-Medical/Medical";
@@ -18,6 +19,7 @@ const Home = () => {
       <ContentHead />
       <Reservation />
       <Grouping />
+      <Data />
       <DocNotif />
       <Comment />
       <Medical />

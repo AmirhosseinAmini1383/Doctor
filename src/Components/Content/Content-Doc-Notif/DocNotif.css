@@ -4,6 +4,7 @@
 .bio_doctor {
   font-size: 40px;
   color: var(--black);
+  margin-top: 80px;
 }
 .lorem-bio {
   color: var(--dark);

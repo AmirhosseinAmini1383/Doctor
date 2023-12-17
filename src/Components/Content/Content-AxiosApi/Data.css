@@ -1,0 +1,36 @@
+:root {
+  --purple: #3f3f79;
+  --purpleLight: #8787bf;
+  --green: #7ad03a;
+  --red: #a00;
+  --orange: #ffba00;
+  --blue: #031b4e;
+  --wc-secondary: #e9e6ed;
+  --wc-highlight: #b3af54;
+  --white: #ffffff;
+  --subtext: #767676;
+  --dark: #515151;
+  --body: #f7f7f7;
+  --black: #000000;
+}
+.p-data {
+  text-align: right;
+  font-size: 25px;
+}
+.table {
+  width: 100%;
+  text-align: center;
+}
+.table td {
+  color: var(--dark);
+  border-top: 1px solid var(--subtext);
+  padding-top: 10px;
+}
+.icon_table {
+  width: 25px;
+  height: 25px;
+}
+.waiting {
+  font-size: 25px;
+  text-align: center;
+}
