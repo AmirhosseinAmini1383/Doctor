@@ -40,6 +40,14 @@
     width: calc(100% - 50px);
     margin: 0 auto;
   }
+  /* Data */
+  .p-data {
+    width: calc(100% - 20px);
+  }
+  .table {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+  }
   /* DocNotif */
   .bio {
     width: calc(100% - 50px);

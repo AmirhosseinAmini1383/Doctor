@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import Coldexercise from "../../Images/Image/cold-and-exercise.png";
+import ArrowUp from "../../Components/ArrowUp/ArrowUp";
 import Healthstats from "../../Images/Image/health-stats.png";
 import Doctortest from "../../Images/Image/doctor-test.png";
 import User from "../../Images/Image/User.png";
@@ -9,11 +10,11 @@ import Cold from "../../Images/Image/cold.png";
 import Instagram from "../../Images/Icon/instagram.png";
 import Telegram from "../../Images/Icon/telegram.png";
 import "./MedicalAdvicePage.css";
-
 import { Link } from "react-router-dom";
 const DoctorTest = () => {
   return (
     <div className="container">
+      <ArrowUp />
       <Header />
       <div className="medical-advice">
         <div className="maindiv">

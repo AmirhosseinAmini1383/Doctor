@@ -12,6 +12,7 @@
   --dark: #515151;
   --body: #f7f7f7;
   --black: #000000;
+  scroll-behavior: smooth;
 }
 @font-face {
   font-family: Vazir;

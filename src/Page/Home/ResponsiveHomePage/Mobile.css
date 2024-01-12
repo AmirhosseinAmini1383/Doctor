@@ -44,6 +44,20 @@
     font-size: 13px;
     padding: 20px;
   }
+  /* Data */
+  .p-data {
+    font-size: 20px;
+  }
+  .waiting {
+    font-size: 22px;
+  }
+  .table {
+    font-size: 10px;
+  }
+  .icon_table {
+    width: 15px;
+    height: 15px;
+  }
   /* DocNotif */
   .bio_doctor {
     font-size: 30px;
@@ -100,5 +114,20 @@
   }
   .medical-image {
     width: calc(100% - 20px);
+  }
+}
+@media (max-width: 300px) {
+  .p-data {
+    font-size: 15px;
+  }
+  .waiting {
+    font-size: 17px;
+  }
+  .table {
+    font-size: 5px;
+  }
+  .icon_table {
+    width: 10px;
+    height: 10px;
   }
 }

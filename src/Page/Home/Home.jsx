@@ -12,9 +12,11 @@ import "./ResponsiveHomePage/MainResponsive.css";
 import "./ResponsiveHomePage/Tablet.css";
 import "./ResponsiveHomePage/Mobile.css";
 import "./Home.css";
+import ArrowUp from "../../Components/ArrowUp/ArrowUp";
 const Home = () => {
   return (
     <div className="container">
+      <ArrowUp />
       <Header />
       <ContentHead />
       <Reservation />

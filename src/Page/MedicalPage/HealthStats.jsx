@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
+import ArrowUp from "../../Components/ArrowUp/ArrowUp";
 import Coldexercise from "../../Images/Image/cold-and-exercise.png";
 import Healthstats from "../../Images/Image/health-stats.png";
 import DoctorTest from "../../Images/Image/doctor-test.png";
@@ -14,6 +15,7 @@ import { Link } from "react-router-dom";
 const HealthStats = () => {
   return (
     <div className="container">
+      <ArrowUp />
       <Header />
       <div className="medical-advice">
         <div className="maindiv">

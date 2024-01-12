@@ -10,9 +10,11 @@ import "./MedicalAdvicePage.css";
 import { Link } from "react-router-dom";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
+import ArrowUp from "../../Components/ArrowUp/ArrowUp";
 const Cold = () => {
   return (
     <div className="container">
+      <ArrowUp />
       <Header />
       <div className="medical-advice">
         <div className="maindiv">

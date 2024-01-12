@@ -1,0 +1,10 @@
+.arrow-up {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background: var(--purple);
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+}
