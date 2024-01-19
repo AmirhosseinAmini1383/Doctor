@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import TrashIcon from "../../../Images/Icon/trash.png";
 import "./Data.css";
-import axios from "axios";
 import swal from "sweetalert";
+import { jpAxios } from "../../../Api/JpAxios";
 const Data = () => {
   const [Users, setUsers] = useState([]);
   useEffect(() => {
-    axios
-      .get("https://jsonplaceholder.typicode.com/users")
+    jpAxios
+      .get("/users")
       .then((res) => {
         setUsers(res.data);
       })
@@ -24,23 +24,21 @@ const Data = () => {
       dangerMode: true,
     }).then((willDelete) => {
       if (willDelete) {
-        axios
-          .delete(`https://jsonplaceholder.typicode.com/users/${itemId}`)
-          .then((res) => {
-            if (res.status == 200) {
-              const newUsers = Users.filter((user) => user.id != itemId);
-              setUsers(newUsers);
-              swal("حذف با موفقیت انجام شد", {
-                icon: "success",
-                buttons: "متوجه شدم",
-              });
-            } else {
-              swal("عملیات با خطا مواجه شد", {
-                icon: "error",
-                buttons: "متوجه شدم",
-              });
-            }
-          });
+        jpAxios.delete(`/users/${itemId}`).then((res) => {
+          if (res.status == 200) {
+            const newUsers = Users.filter((user) => user.id != itemId);
+            setUsers(newUsers);
+            swal("حذف با موفقیت انجام شد", {
+              icon: "success",
+              buttons: "متوجه شدم",
+            });
+          } else {
+            swal("عملیات با خطا مواجه شد", {
+              icon: "error",
+              buttons: "متوجه شدم",
+            });
+          }
+        });
       } else {
         swal("شما از حذف رکورد منصرف شدید", {
           icon: "warning",

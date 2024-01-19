@@ -14,6 +14,7 @@
 .icon_table {
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 .waiting {
   font-size: 25px;
