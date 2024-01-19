@@ -7,7 +7,7 @@ import Cold from "../../../Images/Image/cold.png";
 import { Link } from "react-router-dom";
 const Medical = () => {
   return (
-    <div className="medical">
+    <div id="medicaltarget" className="medical">
       <div className="medical-head">
         <h2>مطالب پزشکی</h2>
         <div>

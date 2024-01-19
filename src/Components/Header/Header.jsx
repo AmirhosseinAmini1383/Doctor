@@ -19,11 +19,11 @@ const Header = () => {
       </div>
       <div className="header-content">
         <div>
-          <a href="#"> دریافت نوبت </a>
-          <a href="#"> سفارش دارو </a>
-          <a href="#"> مطالب پزشکی </a>
-          <a href="#"> درباره ما </a>
-          <a href="#"> تماس با ما </a>
+          <a href="#reservationtarget"> دریافت نوبت </a>
+          <a href="#groupingtarget"> سفارش دارو </a>
+          <a href="#medicaltarget"> مطالب پزشکی </a>
+          <a href="#footertarget"> درباره ما </a>
+          <a href="#footertarget"> تماس با ما </a>
         </div>
       </div>
       <div className="header-docname">

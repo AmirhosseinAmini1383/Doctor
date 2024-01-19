@@ -4,7 +4,7 @@ import Enamad from "../../Images/Image/enamad.png";
 import Samandehi from "../../Images/Image/samandehi.png";
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="footertarget">
       <div className="div-hr"> </div>
       <div className="footer-div">
         <div className="footerinfo">

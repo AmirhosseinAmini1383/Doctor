@@ -10,7 +10,7 @@ import money from "../../../Images/Image/money.png";
 import "./Grouping.css";
 const Grouping = () => {
   return (
-    <div className="grouping">
+    <div className="grouping" id="groupingtarget">
       <div>
         <p className="grouping-p">
           دسته بندی موضوعات <span>عنوان پیشفرض</span>

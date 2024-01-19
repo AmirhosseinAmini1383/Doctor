@@ -4,7 +4,7 @@ import online from "../../../Images/Image/online-doctor.png";
 import medicalprescription from "../../../Images/Image/medical-prescription.png";
 const Reservation = () => {
   return (
-    <div className="reservation">
+    <div className="reservation" id="reservationtarget">
       <div>
         <p className="reservation-p">
           دریافت نوبت پزشک <span>عنوان پیشفرض</span>
