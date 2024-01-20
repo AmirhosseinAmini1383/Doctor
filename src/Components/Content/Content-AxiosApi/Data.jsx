@@ -3,8 +3,14 @@ import TrashIcon from "../../../Images/Icon/trash.png";
 import "./Data.css";
 import swal from "sweetalert";
 import { jpAxios } from "../../../Api/JpAxios";
+import Pagination from "./Pagination";
 const Data = () => {
   const [Users, setUsers] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [postsPerPage, setPostPerPage] = useState(5);
+  const lastPostIndex = currentPage * postsPerPage;
+  const firstPostIndex = lastPostIndex - postsPerPage;
+  const currentPosts = Users.slice(firstPostIndex, lastPostIndex);
   useEffect(() => {
     jpAxios
       .get("/users")
@@ -54,7 +60,7 @@ const Data = () => {
         {Users.length ? (
           <div className="table_user">
             <table className="table">
-              <thead>
+              <thead className="tb-head">
                 <tr>
                   <th>Id</th>
                   <th>Name</th>
@@ -63,8 +69,8 @@ const Data = () => {
                   <th>Delete</th>
                 </tr>
               </thead>
-              <tbody>
-                {Users.map((user) => (
+              <tbody className="tb-tr">
+                {currentPosts.map((user) => (
                   <tr key={user.id}>
                     <td>{user.id}</td>
                     <td>{user.name}</td>
@@ -84,6 +90,12 @@ const Data = () => {
                 ))}
               </tbody>
             </table>
+            <Pagination
+              totalPosts={Users.length}
+              postsPerPage={postsPerPage}
+              setCurrentPage={setCurrentPage}
+              currentPage={currentPage}
+            />
           </div>
         ) : (
           <div>
