@@ -63,6 +63,10 @@
   border: 1px solid #3f3f7933;
   box-shadow: var(--purple);
   width: 100%;
+  max-width: 830px;
+  min-width: 415px;
+  max-height: 400px;
+  min-height: 100px;
 }
 .point-of-view-label {
   color: var(--subtext);
