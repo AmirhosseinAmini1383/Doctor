@@ -9,10 +9,10 @@ const Header = () => {
         <p className="tel">تلفن : 021556585</p>
       </div>
       <div>
-        <form class="search">
+        <form className="search">
           <img className="img-search-icon" src={SearchIcon} alt="search" />
-          <input class="input-search" type="text" placeholder="جستجو..." />
-          <button class="btn-search" type="submit">
+          <input className="input-search" type="text" placeholder="جستجو..." />
+          <button className="btn-search" type="submit">
             جستجو
           </button>
         </form>
